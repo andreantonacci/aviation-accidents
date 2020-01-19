@@ -140,7 +140,7 @@ plot1 <- world_map +
 plot1
 ```
 
-<img src="../README_plots/README-world-map-1.png" width="3000" />
+<img src="README_plots/README-world-map-1.png" width="3000" />
 
 Please notice that the high concentration of accidents in the United
 States is due to the fact that the NTSB mainly deals with accidents
@@ -176,7 +176,7 @@ plot2 <- ggplot(accidents_date, aes(Date, total, group=1)) +
 plot2
 ```
 
-<img src="../README_plots/README-time-series-1-1.png" width="3000" />
+<img src="README_plots/README-time-series-1-1.png" width="3000" />
 
 We observe an overall negative trend in the number of accidents over the
 years. Also, we see that flight seasonality plays an important role in
@@ -212,7 +212,7 @@ plot4 <-  ggplot(fatal_injuries_date, aes(Date, total, group=1)) +
 plot4
 ```
 
-<img src="../README_plots/README-time-series-2-1.png" width="3000" />
+<img src="README_plots/README-time-series-2-1.png" width="3000" />
 
 From this plot, it might seem like flying today is riskier than in the
 past. However, this is a completely wrong conclusion. Instead, this plot
@@ -269,7 +269,7 @@ plot5 <- ggplot(df, aes(IsFatal, fill = IsFatal)) +
 plot5
 ```
 
-<img src="../README_plots/README-barchart-1-1.png" width="3000" />
+<img src="README_plots/README-barchart-1-1.png" width="3000" />
 
 Actually, it looks like the most fatal accidents occured when
 maneuvering - i.e., turning, climbing, or descending close to the
@@ -295,7 +295,7 @@ plot6 <- ggplot(subset(df, !Weather.Condition == "UNK"), aes(Weather.Condition, 
 plot6
 ```
 
-<img src="../README_plots/README-barchart-2-1.png" width="3000" />
+<img src="README_plots/README-barchart-2-1.png" width="3000" />
 
 As predicted, the majority of accidents in Visual Meteorological
 Condition (VMC, which generally means good weather) are not fatal. On
@@ -330,7 +330,7 @@ plot7 <- ggplot(subset(accidents_manufacturer, !Manufacturer == "Other"), aes(Ma
 plot7
 ```
 
-<img src="../README_plots/README-barchart-3-1.png" width="3000" />
+<img src="README_plots/README-barchart-3-1.png" width="3000" />
 
 Please notice that this is not a really fair comparison. For instance, a
 higher number of accidents for Boeing could be attributed to the fact
