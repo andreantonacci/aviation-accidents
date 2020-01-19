@@ -378,7 +378,7 @@ from Boeing, which includes accidents from 1959 to 2017.
 
 #### Contributing
 Feel free to reproduce this study or emulate this setup for your own
-project. Pull requests are welcome.
+project. Pull requests are welcome!
 
 #### License
 All materials are licensed under a Creative Commons [CC-BY-SA-4.0](https://choosealicense.com/licenses/cc-by-sa-4.0/) license.
